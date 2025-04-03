@@ -1,0 +1,12 @@
+{
+    "extends": [
+      "stylelint-config-standard",
+      "stylelint-config-recess-order"
+    ],
+    "plugins": [
+      "stylelint-order"
+    ],
+    "rules": {
+      "plugin/stylelint-order/properties-order": "alphabetical" 
+    }
+  }
